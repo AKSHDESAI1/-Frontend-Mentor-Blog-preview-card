@@ -1,0 +1,100 @@
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+  --font: 16px;
+}
+
+@font-face {
+  font-family: akshFont;
+  src: url("/-Frontend-Mentor-Blog-preview-card/assets/fonts/Figtree-VariableFont_wght.ttf");
+  font-weight: 500, 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: var(--yellow);
+  display: flex;
+}
+
+.card {
+  width: 383px;
+  height: 523px;
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 8px 8px;
+  margin: 218px 0 0 779px;
+  border: 1px solid;
+}
+
+img {
+  margin: 23px;
+  border-radius: 10px;
+}
+
+button {
+  background: var(--yellow);
+  color: var(--black);
+  font-size: 14px;
+  margin: -4px 23px;
+  border: 0px;
+  width: 82px;
+  height: 30px;
+  font-weight: bolder;
+  border-radius: 5px;
+  font-family: akshFont;
+  font-weight: 900;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 17px 22px;
+  font-family: akshFont;
+  color: var(--black);
+  font-weight: 600;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 0 23px;
+  font-family: akshFont;
+  color: var(--black);
+  font-weight: 900;
+}
+
+.desc {
+  font-family: akshFont;
+  margin: 18px 18px 0 22px;
+  line-height: 23px;
+  color: var(--grey);
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer_img {
+  width: 33px;
+  height: 33px;
+  /* margin: 1px; */
+}
+
+.footer_name {
+  margin: 0px -13px;
+  color: var(--black);
+  font-weight: bold;
+  font-size: 14px;
+  font-family: akshFont;
+}
